@@ -5,10 +5,6 @@ Proyecto Destacado - E-commerce con React
 ¡Una tienda online 100% funcional hecha desde cero! Combina productos traídos desde Firebase (Firestore) y una API externa para ofrecer una experiencia completa de navegación, filtrado, ordenamiento y carrito de compras.
 ¡Explora la demo en vivo y siente la magia de una tienda real! 🚀
 
-✨ Demo en vivo
-👉 Ver demo aquí
-
-(reemplaza con el link real de tu deploy en Vercel, Netlify o GitHub Pages)
 
 🚀 Características destacadas del proyecto
 
