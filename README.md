@@ -1,16 +1,36 @@
-# React + Vite
+🛒 Mini E-Commerce | Tienda Online con React + Vite + Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto Destacado - E-commerce con React
 
-Currently, two official plugins are available:
+¡Una tienda online 100% funcional hecha desde cero! Combina productos traídos desde Firebase (Firestore) y una API externa para ofrecer una experiencia completa de navegación, filtrado, ordenamiento y carrito de compras.
+¡Explora la demo en vivo y siente la magia de una tienda real! 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Demo en vivo
+👉 Ver demo aquí
 
-## React Compiler
+(reemplaza con el link real de tu deploy en Vercel, Netlify o GitHub Pages)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🚀 Características destacadas del proyecto
 
-## Expanding the ESLint configuration
+⚛️ Desarrollado con React 18 + Vite (build ultrarrápido)
+🔥 Firebase como base de datos para productos propios (Firestore)
+🌐 Consumo de API externa para traer productos adicionales
+🗂️ Filtro por categorías en tiempo real
+🔽🔼 Ordenamiento por precio (de menor a mayor y mayor a menor)
+🛍️ Carrito de compras completo: agregar, sumar cantidades, eliminar productos
+🧭 Navegación fluida con React Router DOM v6
+📱 Diseño 100% responsive y mobile-first
+⚡ Optimización de rendimiento y carga rápida
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tecnologías utilizadas
+
+TecnologíaUsoReact + ViteFramework y bundler ultrarrápidoFirebase (Firestore)Base de datos en tiempo real para productosFetch / AxiosConsumo de API externaReact Router DOM v6Navegación y rutas dinámicasJavaScript (ES6+)Lógica principal de la aplicaciónHTML5 + CSS3Estructura semántica y estilos modernosFlexbox / GridLayout responsiveContext APIManejo global del carrito y estado
+🎯 Funcionalidades clave implementadas
+
+Visualización de productos desde dos fuentes diferentes (Firebase + API)
+Detalle de producto con información completa
+Filtro por categorías (dinámico)
+Ordenamiento por precio ascendente/descendente
+Carrito persistente (con estado global)
+Agregar, incrementar, disminuir y eliminar items del carrito
+Cálculo automático del total a pagar
