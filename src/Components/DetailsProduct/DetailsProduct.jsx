@@ -1,11 +1,26 @@
 import { useEffect, useState } from "react";
 import "./DetailsProduct.css";
 import { useParams } from "react-router-dom";
+import { useCart } from "../CartContext/CartContext";
 
 export const DetailsProduct = () => {
   const { id } = useParams();
   const [producto, setProducto] = useState(null);
   const [error, setError] = useState(null);
+
+  const {agregarAlCarrito} = useCart();
+
+  const handleAgregarAlCarrito = () => {
+    if (producto) {
+      agregarAlCarrito({
+        id: producto.id,
+        imagen: producto.image,
+        nombre: producto.nombre,
+        precio: producto.precio,
+        cantidad: 1
+      })
+    }
+  }
 
   useEffect(() => {
     const fetchProducto = async () => {
@@ -47,7 +62,7 @@ return (
             <button>XL</button>
           </div>
 
-          <button className="add-to-cart">Añadir al carrito</button>
+          <button className="add-to-cart" onClick={handleAgregarAlCarrito}>Añadir al carrito</button>
         </div>
 
         <p className="note">
