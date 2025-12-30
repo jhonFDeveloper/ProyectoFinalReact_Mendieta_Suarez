@@ -7,6 +7,7 @@ export const Categories = () => {
     
         <>             
           <ProductList/>
+     
         </>
   )
 }

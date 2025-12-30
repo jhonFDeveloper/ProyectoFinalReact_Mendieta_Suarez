@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./ProductList2.css";
-import { app } from "../../../../ProyectoFinal_Mendieta_Suarez/src/firebaseConfig";
+import { app } from "../../firebaseConfig.";
 import { collection, getFirestore, getDocs } from "firebase/firestore";
 
 export const ProductList2 = () => {
