@@ -77,7 +77,7 @@ export const Footer = () => {
     
       <div className="footer-bottom">
         <div className="footer-container">
-          <p>© {currentYear} JF.SHOP — Todos los derechos reservados</p>          
+          <p>© {currentYear} creado por Jhon Fredy Mendieta Suárez — Todos los derechos reservados</p>          
         </div>
       </div>
     </footer>

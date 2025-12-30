@@ -1,8 +1,9 @@
 import { useCart } from "../CartContext/CartContext"
+import { Footer } from "../Footer/Footer";
 import "./Cart.css"
 
 export const Cart = () => {
-
+ 
    const {carrito, actualizarCantidad, eliminarProducto} = useCart();
 
    const costoDeEnvio = 10;
@@ -95,8 +96,9 @@ export const Cart = () => {
              <p className="total">Total: <span>{total.toFixed(2)}</span></p>
              <button className="checkout-btn">PAGAR</button>
          </div>
-
+          <Footer/>
     </div>
 
   )
+  
 }
