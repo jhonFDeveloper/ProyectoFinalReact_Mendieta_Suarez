@@ -1,0 +1,100 @@
+.contacto-container {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.contacto-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contacto-header h1 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.contacto-header span {
+  font-weight: bold;
+  color: #000;
+}
+
+.contacto-header p {
+  margin-top: 10px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.contacto-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.contacto-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-form h2 {
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.contacto-form button {
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contacto-form button:hover {
+  background-color: #333;
+}
+
+.contacto-mapa {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contacto-mapa h2 {
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.contacto-mapa iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contacto-header span {
+    color: #9893fb;
+}
