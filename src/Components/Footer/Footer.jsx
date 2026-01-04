@@ -16,17 +16,14 @@ export const Footer = () => {
               Tu tienda de moda online con las últimas tendencias para hombres, mujeres y niños. Calidad y estilo al mejor precio.
             </p>
             <div className="footer-social">
-              <a href="#" aria-label="Facebook" className="social-link">
-                <i className="fab fa-facebook-f"></i>
+              <a href="https://github.com/jhonFDeveloper" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="social-link">
+                <i className="fab fa-github"></i>
               </a>
-              <a href="#" aria-label="Instagram" className="social-link">
+              <a href="https://www.linkedin.com/in/jhon-f-mendieta-4b75b8126/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="social-link">
+                <i className="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/jhonfcompu/?next=%2F" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="social-link">
                 <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#" aria-label="Twitter" className="social-link">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" aria-label="YouTube" className="social-link">
-                <i className="fab fa-youtube"></i>
               </a>
             </div>
           </div>
