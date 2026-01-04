@@ -18,8 +18,7 @@ function App() {
           <Route path="/" element={ <Home/>} />    
           <Route path="/Categorias" element={ <Categories/>} />       
           <Route path="/product/:id" element={ <DetailsProduct/>} />   
-          <Route path="/carrito" element={ <Cart/> }/>
-          {/* <Footer /> */}
+          <Route path="/carrito" element={ <Cart/> }/>          
         </Routes>        
       </Router>
       </CartProvider>
@@ -28,3 +27,5 @@ function App() {
 }
 
 export default App
+
+
