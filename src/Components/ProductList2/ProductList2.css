@@ -54,7 +54,6 @@ input[type="checkbox"] {
     vertical-align: middle;
 }
 
-/*-----------------------------------*/
 
 .collections{
     flex: 1;
@@ -86,8 +85,6 @@ input[type="checkbox"] {
     padding: .5rem;
     border: 1px solid #ddd;
 }
-
-/*-----------------------------------*/
 
 .products {
     display: grid;
@@ -125,4 +122,6 @@ input[type="checkbox"] {
     color: #9893fb;
     text-align: left;
 }
+ 
 
+  

@@ -10,6 +10,7 @@
     align-items: center;
     padding: 1rem;
     border-bottom: 1px solid #ddd;
+    position: relative;
 }
 
 .logo {
@@ -88,5 +89,98 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+.hamburger:hover {
+    color: var(--purple);
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: space-between;
+    }
+
+
+    .hamburger {
+        display: block;
+        order: 1;
+    }
+
+
+    .logo {
+        order: 2;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+
+    .icons {
+        order: 3;
+        margin-left: auto;
+    }
+
+    /* Menú de navegación convertido a menú móvil */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: var(--white);
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: left 0.3s ease;
+        z-index: 1000;
+        margin: 0;
+        padding-top: 4rem;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem;
+    }
+
+    .nav-links li {
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 1rem;
+        font-size: 16px;
+    }
+}
+
+/* Media Query para móviles muy pequeños */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .icons {
+        gap: 0.3rem;
+    }
+
+    .search-button,
+    .icon-button {
+        font-size: 18px;
+    }
 }

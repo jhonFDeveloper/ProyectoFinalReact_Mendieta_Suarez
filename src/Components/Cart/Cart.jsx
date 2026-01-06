@@ -99,6 +99,7 @@ export const Cart = () => {
 
   return (
 
+    <>
     <div className="cart-container">
       <h2>TU <span>CARRITO</span></h2>
       {carrito.length === 0 ? (
@@ -178,8 +179,9 @@ export const Cart = () => {
         >
           {cargando ? "PROCESANDO..." : "PAGAR"}
         </button>
-      </div>
-      <Footer/>
+      </div>      
     </div>
+    <Footer/>
+  </>
   );
 };

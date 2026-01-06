@@ -3,6 +3,8 @@ import "./Contacto.css";
 
 export const Contacto = () => {
   return (
+
+    <>
     <section className="contacto-container">
       <div className="contacto-header">
         <h1>
@@ -50,9 +52,10 @@ export const Contacto = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-      </div>
-      <Footer/>
+      </div>      
     </section>
+    <Footer/>
+    </>
   );
 };
 

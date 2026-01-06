@@ -3,6 +3,7 @@ import "./About.css";
 
 export const About = () => {
   return (
+    <>
     <section className="about-container">
       <div className="about-hero">
         <h1>
@@ -52,9 +53,10 @@ export const About = () => {
             <li>✔ Atención cercana y confiable</li>
           </ul>
         </div>
-      </div>
-      <Footer/>
+      </div>    
     </section>
+      <Footer/>
+    </>
   );
 };
 
